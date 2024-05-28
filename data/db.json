@@ -1,0 +1,48 @@
+{
+  "divisions": [
+    {
+      "division_name": "AKUNA-C"
+    },
+    {
+      "division_name": "AKU NA-B"
+    },
+    {
+      "division_name": "AKUNA-X"
+    }
+  ],
+  "states": [
+    {
+      "state_name": "ANDHRA PRADESH"
+    },
+    {
+      "state_name": "ASSAM"
+    },
+    {
+      "state_name": "BIHAR"
+    },
+    {
+      "state_name": "CHANDIGARH"
+    },
+    {
+      "state_name": "KARNATAKA"
+    },
+    {
+      "state_name": "MANIPUR"
+    },
+    {
+      "state_name": "PUNJAB"
+    },
+    {
+      "state_name": "TAMIL NADU"
+    },
+    {
+      "state_name": "WEST  BENGAL"
+    },
+    {
+      "state_name": "MAHARASHTRA"
+    },
+    {
+      "state_name": "HEAD QUATRE (HO)"
+    }
+  ]
+}

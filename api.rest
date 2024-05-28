@@ -1,0 +1,72 @@
+### Variables
+@host = http://localhost:3000
+
+### Hello Express
+GET {{host}}/ HTTP/1.1
+
+### Update Passport data
+PUT {{host}}/applications/10/passport HTTP/1.1
+Content-Type: application/json
+
+{
+  "modified_given_name": "amal",
+  "modified_surname": "raj",
+  "modified_passport_number": "y1104271",
+  "modified_date_of_birth": "1997-03-31",
+  "modified_nationality": "IND",
+  "modified_country_code": "IND",
+  "modified_place_of_birth": "MEDAK,   TELANGANA",
+  "modified_place_of_issue": "HYDERABAD",
+  "modified_date_of_issue": "2024-04-27",
+  "modified_date_of_expiry": "2025-03-01"
+}
+
+# {
+#   "modified_given_name": "AMAL",
+#   "modified_surname": "RAJ",
+#   "modified_passport_number": "Y1104271",
+#   "modified_date_of_birth": "1997-03-31",
+#   "modified_nationality": "IND",
+#   "modified_country_code": "IND",
+#   "modified_place_of_birth": "MEDAK, TELANGANA",
+#   "modified_place_of_issue": "HYDERABAD",
+#   "modified_date_of_issue": "2024-04-27",
+#   "modified_date_of_expiry": "2034-04-26"
+# }
+
+### Update aadhaar data
+PUT {{host}}/applications/10/aadhaar HTTP/1.1
+Content-Type: application/json
+
+{
+  "modified_aadhaar_number": "706940815887"
+}
+
+### Update PAN data
+PUT {{host}}/applications/10/pan HTTP/1.1
+Content-Type: application/json
+
+{
+  "modified_pan_number": "CVBPG7143j"
+}
+
+### Update Vaccine data
+PUT {{host}}/applications/10/vaccine HTTP/1.1
+Content-Type: application/json
+
+{
+  "vaccine_type": "SINGLE_DOSE",
+  "last_vaccination_date": "2024-05-26",
+  "vaccination_certificate_no": "78220587598"
+}
+
+### Update Other data
+PUT {{host}}/applications/10/other HTTP/1.1
+Content-Type: application/json
+
+{
+  "division_name": "AKUNA-C",
+  "meal_preferences": "veg",
+  "place_of_work": "Kolkata",
+  "state_name": "WEST  BENGAL"
+}
